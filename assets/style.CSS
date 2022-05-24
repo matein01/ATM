@@ -45,13 +45,44 @@ body{
     font-size: 1.8rem;
 }
 
-.main-numbre, .main-button{
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-number{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+}
+
+.main-button{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.main-button-finalizar, .main-button-extraer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-button-finalizar img{
+    width: 24%;
+}
+
+.main-button-extraer img{
+    width: 30%;
 }
 
 .main-resultado div{
