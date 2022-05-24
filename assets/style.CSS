@@ -1,12 +1,14 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  html {
+}
+
+html{
     font-size: 62.5%;
     font-family: "Comic Neue", cursive;
-  }
+}
+
 body{
     width: 80%;
     padding: 0rem;
@@ -15,6 +17,7 @@ body{
     margin: 0 auto;
     background-color: #ddd;
 }
+
 .header-box{
     display: flex;
     flex-wrap: wrap;
@@ -25,19 +28,24 @@ body{
     background-color: orange;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
 }
+
 .header-box h1{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
-    padding: 0.5rem;
+    width: 80%;
 }
+
 .header-box h1 img{
     padding: 1.5rem;
+    width: 28%;
 }
+
 .header-box span{
     font-size: 1.8rem;
 }
-.main-numbre{
+
+.main-numbre, .main-button{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -45,22 +53,18 @@ body{
     align-items: center;
     padding: 1rem;
 }
-.main-button{
-    width: 100%;
+
+.main-resultado div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    font-size: 5rem;
+    font-weight: bold;
 }
-.main-resultado p{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-items: center;
-    padding: 1rem;
-}
+
 .main-resultado img{
-    width: 20%;
-    padding: 0.6rem;
+    width: 45%;
+    padding-left: 3rem;
 }
