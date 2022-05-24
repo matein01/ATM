@@ -1,5 +1,3 @@
-alert("Por ahora el menu desplegable, solamente es decorativo 😉")
-
 var imagenes = [];
 imagenes["Cienmil"] = "assets/img/cienmil.svg";
 imagenes["Cincuentamil"] = "assets/img/cincuentamil.svg";
@@ -113,5 +111,6 @@ var papeles;
 var resultado = document.getElementById("resultado");
 var b = document.getElementById("extraer");
 var f = document.getElementById("finalizar");
-f.addEventListener('click', _ => {location.reload();});
+var m = document.getElementById("menu");
+f.addEventListener("click", _ => {location.reload();});
 b.addEventListener("click", entregarDinero);

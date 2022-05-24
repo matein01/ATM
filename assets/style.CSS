@@ -59,6 +59,16 @@ body{
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    margin: 2rem;
+}
+
+.main-number .dinero{
+    background: silver;
+    border: 1px solid #393939;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: #393939;
+    font-size: 1.8rem;
+    padding: 5px;
 }
 
 .main-button{
@@ -72,17 +82,16 @@ body{
 .main-button-finalizar, .main-button-extraer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
 
 }
 
 .main-button-finalizar img{
-    width: 24%;
+    width: 5.3rem;
 }
 
 .main-button-extraer img{
-    width: 30%;
+    width: 24%;
 }
 
 .main-resultado div{
