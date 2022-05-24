@@ -6,17 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cajero automatico</title>
     <link rel="stylesheet" href="assets/style.CSS">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>
-        <img src="assets/img/ATM.svg" alt="Cajero automatico">
-    </p>
-    <p>
-        <input type="number" class="dinero" id="dinero">
-        <input type="button" value="Extraer" class="extraer" id="extraer">
-    </p>
-    <p class="resultado" id="resultado">
-    </p>
+    <header class="header-container">
+        <div class="header-box">
+            <h1><img src="assets/img/ATM.svg" alt="Cajero automatico"> ATM</h1>
+            <span class="welcome">
+                Bienvenido
+            </span>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="main-numbre">
+            <input type="number" class="dinero" id="dinero">
+        </div>
+        <div class="main-button">
+            <input type="button" value="Extraer" class="extraer" id="extraer">
+        </div>
+        <div class="main-resultado">
+            <p class="resultado" id="resultado">
+            </p>
+        </div>
+    </main>
+    <footer class="footer-container">
+    </footer>
     <script src="assets/code.js">
     </script>
 </body>
