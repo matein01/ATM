@@ -64,11 +64,11 @@ body{
 
 .main-number .dinero{
     background: silver;
-    border: 1px solid orange;
+    border: 0.1rem solid orange;
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
     color: black;
     font-size: 1.8rem;
-    padding: 5px;
+    padding: 0.5rem;
 }
 
 .main-button{
