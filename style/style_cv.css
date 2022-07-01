@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+    
+html{
+    font-size: 62.5%;
+    font-size: 1rem;
+    font-family: 'Acme', sans-serif;
+}
+
+section{
+    width: 100%;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cara{
+    width: 30%;
+}
+
+.img img{
+    display: flex;
+    width: 10rem;
+    margin: 2.8rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+}
+
+.datos-personales{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 2.8rem;
+    margin-top: 3rem;
+}
+.informacion-personal{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 3rem;
+}
+
+.nombre{
+    width: 30%;
+    margin-left: 3rem;
+}
+
+.objetivo-profesional{
+    display: flex;
+    width: 56%;
+    flex-direction: column;
+    margin-top: -1.6rem;
+}
+
+.main{
+    margin-left: 2.8rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.experiencia, .educacion, .habilidades, .referencias-personales{
+    width: 45%;
+}
