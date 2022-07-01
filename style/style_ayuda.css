@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Comic Neue", cursive;
+}
+
+body{
+    width: 80%;
+    padding: 0rem;
+    text-align: left;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    background-color: #ddd;
+}
+
+hr{
+    border-color: black;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1rem;
+}
+
+.header-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-box .img-uno{
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.header-box .img-uno img{
+    width: 2rem;
+}
+
+.header-box h1{
+    text-align: center;
+    margin: 1rem;
+    padding-right: 10rem;
+}
+
+.header-box .respuestas{
+    text-align: start;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    width: 70%;
+}
+
+.header-box .img-dos{
+    text-align: end;
+    width: 30%;
+}
+
+.header-box .img-dos img{
+    width: 5rem;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1rem;
+}
+
+.main-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main .numero{
+    width: 100%;
+    background-color: orange;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    padding: 0.6rem;
+    margin-top: 1rem;
+}
+
+.main .numero summary{
+    font-size: 1.3rem;
+}
+
+.main .numero p{
+    font-size: 1.2rem;
+}
+
+.main .contraseña{
+    width: 100%;
+    background-color: orange;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    padding: 0.6rem;
+    margin-top: 1rem;
+}
+
+.main .contraseña summary{
+    font-size: 1.3rem;
+}
+
+.main .contraseña p{
+    font-size: 1.2rem;
+}
+
+.main .porque{
+    width: 100%;
+    background-color: orange;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    padding: 0.6rem;
+    margin-top: 1rem;
+}
+
+.main .porque summary{
+    font-size: 1.3rem;
+}
+
+.main .porque p{
+    font-size: 1.2rem;
+}
