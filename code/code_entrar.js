@@ -58,7 +58,7 @@ function recibirContraseña(numero){
 function ir(){
     var c = 1234;
     if(contraseña == c){
-        window.location="principal.html";
+        window.location ="principal.html";
     }
     else{
         alert("La contraseña es 1234");

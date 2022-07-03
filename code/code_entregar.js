@@ -76,11 +76,11 @@ function entregarDinero()
         {
             if(e.cantidad > 0 && e.cantidad < 2)
             {
-                resultado.innerHTML += "<div>" + e.cantidad + "<img src=" + imagenes[e.singular] + " alt=" + ">" + "</div>";
+                resultado.innerHTML += "<p>" + e.cantidad + "<img src=" + imagenes[e.singular] + " alt=" + ">" + "</p>";
             }
             else if(e.cantidad > 0)
             {
-                resultado.innerHTML += "<div>" + e.cantidad + "<img src=" + imagenesPlural[e.plural] + " alt=" + ">" + "</div>";
+                resultado.innerHTML += "<p>" + e.cantidad + "<img src=" + imagenesPlural[e.plural] + " alt=" + ">" + "</p>";
             }
         }
     }
@@ -109,8 +109,9 @@ var div;
 var papeles;
 
 var resultado = document.getElementById("resultado");
+var d = document.getElementById("disponible");
 var b = document.getElementById("extraer");
 var f = document.getElementById("finalizar");
-var m = document.getElementById("menu");
+
 f.addEventListener("click", _ => {location.reload();});
 b.addEventListener("click", entregarDinero);

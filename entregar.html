@@ -9,34 +9,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header-container">
+    <header class="header">
         <div class="header-box">
-            <h1><img src="assets/img/coin.svg" alt="Cajero automatico"> FullCoin</h1>
-            <div class="header-menu">
-                <img src="assets/img/menu.svg" alt="Menu desplegable" class="menu" id="menu">
-            </div>
+            <a href="principal.html" class="img-regresar">
+                 <img src="assets/img/left-arrow.svg" alt="Finalizar" class="finalizar" id="finalizar">
+            </a>
+            <h1>
+                Sacar plata
+            </h1>
         </div>
     </header>
-    <main class="main-container">
-        <div class="main-number">
-            <input type="number" class="dinero" id="dinero" autofocus>
-        </div>
-        <div class="main-button">
-            <div class="main-button-extraer">
-                <img src="assets/img/check.svg" alt="Extraer" class="extraer" id="extraer">
+    <main class="main">
+        <div class="main-box">
+            <input type="number" class="dinero" id="dinero" placeholder="Cuanto quieres sacar?">
+            <div class="resultado" id="resultado">
             </div>
-            <div class="main-button-finalizar">
-                <img src="assets/img/exit.svg" alt="Finalizar" class="finalizar" id="finalizar">
-            </div>
-        </div>
-        <div class="main-resultado">
-            <p class="resultado" id="resultado">
-            </p>
         </div>
     </main>
-    <footer class="footer-container">
+    <footer class="footer">
+        <div class="footer-box">
+            <div class="sigue">
+                <p id="extraer">Sacar</p>
+            </div>
+            <div class="listo">
+                <a href="listo.html" class="list">Listo</a>
+            </div>
+        </div>
     </footer>
-    <script src="code/code_entregar.js">
+    <script src="./code/code_entregar.js">
     </script>
 </body>
 </html>

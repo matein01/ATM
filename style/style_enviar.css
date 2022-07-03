@@ -53,20 +53,6 @@ body{
     width: 100%;
 }
 
-.main-box .resultado img{
-    margin-left: 2rem;
-    width: 35%;
-}
-
-.main-box .resultado p{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    font-weight: bold;
-}
-
 input{
     width: 100%;
     background-color: lightgrey;
@@ -77,9 +63,13 @@ input{
     border: 0px #ddd;
 }
 
+.main-box .input-mensaje{
+    height:10rem;
+}
+
 .footer{
     display: flex;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .footer .footer-box{
@@ -90,7 +80,7 @@ input{
     width: 100%;
 }
 
-.sigue{
+.footer-box .sigue{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,32 +90,10 @@ input{
     border-radius: 3rem;
     border: 1px solid black;
     font-size: 1.5rem;
-    font-weight: bold;
 }
 
-.listo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: orange;
-    width: 80%;
-    height: 3rem;
-    border-radius: 3rem;
-    border: 1px solid black;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.listo a{
-    font-weight: bold;
+.sigue a{
     text-decoration: none;
     color: black;
-    width: 100%;
-}
-
-.sigue p{
-    width: 100%;
-    text-align: center;
-    color: black;
+    font-weight: bold;
 }
